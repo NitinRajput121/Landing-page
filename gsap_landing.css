@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 0px 50px;
+   
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#container{
+    width: 100%;
+    height: 80%;
+   
+    display: flex;
+    
+}
+#left{
+    height: 100%;
+    width: 50%;
+    
+    padding: 50px;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    
+    padding: 50px;
+}
+#left h1{
+font-size: 90px;
+text-transform: uppercase;
+line-height: 130px;
+}
+
+#right img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#box{
+    height: 300px;
+    width: 400px;
+    border: 3px solid white;
+   border-radius: 15px;
+   text-align: center;
+}
+#box h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#box p{
+    font-size: 20px;
+font-weight: 600;
+}
